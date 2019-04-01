@@ -1,6 +1,8 @@
 # demo-docker
 How to create Docker Image and run Java App (Spring Boot Jar) in a Docker Engine | InterviewDot
 
+![Docker_Architecture](https://user-images.githubusercontent.com/30971809/55306718-6b42bd00-5455-11e9-964d-f4c97b13883a.png)
+
 # What is Docker ?
 Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package.
 
