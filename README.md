@@ -98,3 +98,5 @@ Vinoths-MBP:demo-docker vinothkumar$ docker run -p 8080:8080 interviewdot:1
 2019-04-01 04:32:06.782  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2019-04-01 04:32:06.789  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
 ```
+# Access the spring boot docker app in http://localhost:8080/docker/interviewdot :
+<img width="691" alt="Screen Shot 2019-04-01 at 06 56 14" src="https://user-images.githubusercontent.com/30971809/55304343-506b4b00-544b-11e9-9fbc-c04c885ef34a.png">
