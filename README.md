@@ -4,6 +4,12 @@ How to create Docker Image and run Java App (Spring Boot Jar) in a Docker Engine
 # What is Docker ?
 Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package.
 
+Benefits :
+1. Its working in my machine, and why its not working in your machine ? resolved "Build once and deploy anywhere".
+2. Docker containers can run on any platform AWS EC2, Google Cloud Platform, Rackspace, Virtual Box, etc.
+3. Docker images can be version controlled.
+4. Rapid deployment.
+
 # Difference between VMs and Docker Containers ?
 ![vm vs containers](https://user-images.githubusercontent.com/30971809/55304291-08e4bf00-544b-11e9-8098-59eba5d6fdf4.jpg)
 
