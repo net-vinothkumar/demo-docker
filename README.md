@@ -13,5 +13,8 @@ https://hub.docker.com/editions/community/docker-ce-desktop-mac
 
 <img width="1076" alt="Screen Shot 2019-04-01 at 06 44 59" src="https://user-images.githubusercontent.com/30971809/55304033-be167780-5449-11e9-930f-c8651d749708.png">
 
+# Start the spring boot demo app :
+```$ mvn spring-boot:run```
+
 
 
