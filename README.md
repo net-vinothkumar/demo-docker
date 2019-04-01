@@ -3,7 +3,9 @@ How to create Docker Image and run Java App (Spring Boot Jar) in a Docker Engine
 
 # What is Docker ?
 
-# What is the difference between VMs and Docker Containers ?
+# Difference between VMs and Docker Containers ?
+![vm vs containers](https://user-images.githubusercontent.com/30971809/55304291-08e4bf00-544b-11e9-8098-59eba5d6fdf4.jpg)
+
 
 # Install Docker in your computer : 
 
