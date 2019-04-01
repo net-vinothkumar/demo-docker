@@ -10,6 +10,9 @@ Benefits :
 3. Docker images can be version controlled.
 4. Rapid deployment.
 
+<img width="1341" alt="Screen Shot 2019-04-01 at 07 28 06" src="https://user-images.githubusercontent.com/30971809/55305418-a2629f80-5450-11e9-80a6-911d4fbfea82.png">
+
+
 # Difference between VMs and Docker Containers ?
 ![vm vs containers](https://user-images.githubusercontent.com/30971809/55304291-08e4bf00-544b-11e9-8098-59eba5d6fdf4.jpg)
 
