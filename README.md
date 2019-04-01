@@ -100,3 +100,10 @@ Vinoths-MBP:demo-docker vinothkumar$ docker run -p 8080:8080 interviewdot:1
 ```
 # Access the spring boot docker app in http://localhost:8080/docker/interviewdot :
 <img width="691" alt="Screen Shot 2019-04-01 at 06 56 14" src="https://user-images.githubusercontent.com/30971809/55304343-506b4b00-544b-11e9-9fbc-c04c885ef34a.png">
+# Check docker containers running :
+
+```
+Vinoths-MBP:demo-docker vinothkumar$ docker ps
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
+5ffad5faf3cc        interviewdot:1      "java -jar demo-dock…"   10 seconds ago      Up 10 seconds       0.0.0.0:8080->8080/tcp   flamboyant_goldwasser
+```
