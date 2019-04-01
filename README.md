@@ -16,5 +16,20 @@ https://hub.docker.com/editions/community/docker-ce-desktop-mac
 # Start the spring boot demo app :
 ```$ mvn spring-boot:run```
 
+As usual, the application will be running on port 8080. To test this endpoint, navigate your browser (or use curl, postman, etc.) to "http://localhost:8080/docker/interviewdot", you will see a response.
 
+# Dockerizing the Spring Boot App
+Dockerfile – Specifying a file that contains native Docker commands to build the image
+A Dockerfile is just a regular .txt file that includes native Docker commands that are used to specify the layers of an image. 
 
+```
+FROM java:8-jdk-alpine
+
+COPY ./target/demo-docker-0.0.1-SNAPSHOT.jar /usr/app/
+
+WORKDIR /usr/app
+
+RUN sh -c 'touch demo-docker-0.0.1-SNAPSHOT.jar'
+
+ENTRYPOINT ["java","-jar","demo-docker-0.0.1-SNAPSHOT.jar"]
+```
